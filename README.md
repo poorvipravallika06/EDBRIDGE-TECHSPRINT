@@ -204,10 +204,6 @@ VIDEO DEMO:
 
 
 
-https://youtu.be/qsijUYPE-xs?si=JW2cgXrrm2NXPKS6
-
-
-
 
 
 
@@ -283,6 +279,28 @@ Firebase
 
 
 
+## Run locally
+
+- Install dependencies:
+
+```bash
+npm install
+```
+
+- Run development server (Vite / HMR):
+
+```bash
+npm run dev
+```
+
+- Build and serve production bundle (static server):
+
+```bash
+npm run build
+npm start
+```
+
+The production server listens on `PORT` (default `3000`).
 
 WORKFLOW
 
@@ -352,5 +370,4 @@ BUSSINESS CANVAS MODEL:
 
 
 <img width="904" height="637" alt="image" src="https://github.com/user-attachments/assets/1d971625-d1ca-4982-b57a-8e8395d0bb3c" />
-
 
